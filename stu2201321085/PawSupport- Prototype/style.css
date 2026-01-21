@@ -1,0 +1,202 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.screen {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #43a047;
+}
+
+.link {
+    text-align: center;
+    color: #4CAF50;
+    cursor: pointer;
+}
+
+.chat-box {
+    background: #f1f1f1;
+    padding: 10px;
+    height: 120px;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+.stars {
+    text-align: center;
+    font-size: 24px;
+    color: gold;
+    margin: 10px 0;
+}
+
+.loader {
+    width: 40px;
+    height: 40px;
+    border: 5px solid #ddd;
+    border-top: 5px solid #4CAF50;
+    border-radius: 50%;
+    margin: 20px auto;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+} */
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Контейнер – повече въздух */
+.container {
+    display: flex;
+    gap: 60px;
+    padding: 40px;
+    overflow-x: auto;
+}
+
+/* ОСНОВНО: блоковете са ~2 пъти по-големи */
+.screen {
+    background: white;
+    padding: 40px;
+    width: 560px;              /* беше 280px */
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* По-големи заглавия */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+}
+
+/* По-едри input-и и бутони */
+input, select, textarea, button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+/* Бутони */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #43a047;
+}
+
+/* Линкове */
+.link {
+    text-align: center;
+    color: #4CAF50;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/* Чат – по-голям и четим */
+.chat-box {
+    background: #f1f1f1;
+    padding: 20px;
+    height: 240px;             /* беше 120px */
+    overflow-y: auto;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* Звезди */
+.stars {
+    text-align: center;
+    font-size: 48px;           /* беше 24px */
+    color: gold;
+    margin: 20px 0;
+}
+
+/* Loader – по-голям */
+.loader {
+    width: 80px;               /* беше 40px */
+    height: 80px;
+    border: 10px solid #ddd;
+    border-top: 10px solid #4CAF50;
+    border-radius: 50%;
+    margin: 40px auto;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
+
+.container {
+    display: flex;
+    justify-content: center;   /* център хоризонтално */
+    align-items: center;       /* център вертикално */
+    gap: 60px;
+    padding: 40px;
+    min-height: 100vh;         /* за вертикално центриране */
+    box-sizing: border-box;
+}
+
+
+img {
+    width: 6%;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 47%;
+}
